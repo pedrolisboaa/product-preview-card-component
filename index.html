@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!--FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <script src="https://kit.fontawesome.com/c59ca1806e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <main class="container-main">
+    <div>
+      <picture>
+        <source media="(min-width: 900px)" srcset="images/image-product-desktop.jpg">
+        <img src="images/image-product-mobile.jpg" alt="imagem chanel">
+      </picture>
+    </div>
+    <div class="container-informacao">
+      <div class="container-informacao__texto">
+        <h2>Perfume</h2>
+        <h1>Gabrielle Essence Eau De Parfuma</h1>
+        <p>
+          A floral, solar and voluptuous<br> interpretation composed by Olivier<br> Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+      </div>
+
+      <div class="container-informacao__preco">
+        <span class="preco_1">$149.99</span> <sup><span class="preco_2">$169.99</span></sup>
+      </div>
+
+      <div class="container-informacao__btn">
+        <a href=""> <img src="images/icon-cart.svg" alt="" srcset=""> Add to Cart</a>
+      </div>
+    </div>
+  </main>
+ 
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  -->
+
+</body>
+
+</html>
